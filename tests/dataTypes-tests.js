@@ -86,15 +86,15 @@ describe("Data types tests ", function() {
     });
 
     it("should return `undefined` for `[]`", function() {
-      expect(myApp.dataTypes([])).not.toBe();
+      expect(myApp.dataTypes([])).toBe('undefined');
     });
     
     it("should return `undefined` for `[4, 9]`", function() {
-      expect(myApp.dataTypes([4, 9])).not.toBe(2);
+      expect(myApp.dataTypes([4, 9])).toBe('undefined');
     });
 
     it("should return `undefined` for `[4]`", function() {
-      expect(myApp.dataTypes([4])).not.toBe(2);
+      expect(myApp.dataTypes([4])).toBe('undefined');
     });
   });
 

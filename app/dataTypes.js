@@ -1,3 +1,13 @@
+/*
+   * dataTypes(value)
+   * returns length of a string, if value is a string
+   * returns a msg if value is null or undefined 
+   * returns true, if value is a function
+   * returns true, if true is a boolean and vice-versa
+   * returns a msg, if value is a number
+   * returns the 3rd index of an object whose length is greater than or equal to 3, 
+      otherwise it returns 'undefined'
+*/
 module.exports = {
   dataTypes : function(value) {
     if(typeof(value) === 'string') {
